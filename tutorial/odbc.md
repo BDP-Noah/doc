@@ -11,8 +11,7 @@
 ### ODBC名称
 所创建的ODBC数据源的名称
 
-!!! warning "目前仅支持32位的ODBC连接"
-    在windows系统中, 系统默认的ODBC管理程序是64位的, 32位的管理程序为:`C:\Windows\SysWOW64\odbcad32.exe`
+!> 目前仅支持32位的ODBC连接, 在64位windows系统中, 系统默认的ODBC管理程序是64位的, 32位的管理程序为:`C:\Windows\SysWOW64\odbcad32.exe`
 
 ### 用户名
 该数据库的用户名
@@ -23,10 +22,13 @@
 ### 额外参数
 大多数ODBC数据库的层次结构为: Catalog/Schema/Table三层结构, 因为数据库本身的限制或者使用习惯的原因, 各种数据库对这种结构的使用方式不同:
 
-* `Schema模式`: 有的数据库使用单Catalog对应多Schema的形式(例如MySQL); 这种情况下, Catalog是固定的, 然而有多个Schema;
-这时配置为Schema模式, 同步客户端会自动获取该Catalog下所有的Schema, 简化配置流程.
+* `Catalog模式`: 有的数据库使用单Catalog对应多Schema的形式(例如MySQL); 这种情况下, Catalog是固定的, 然而有多个Schema;
+这时配置为Schema模式, 并指定Catalog名称, 同步客户端会自动获取该Catalog下所有的Schema, 简化配置流程.
 
-* `Catalog模式`: 反之, 部分数据库使用单个Schema对应多个Catalog的形式(例如SQL Server); 此时会自动获取符合该Schema的所有Catalog.
+
+* `Schema模式`: 反之, 部分数据库使用单个Schema对应多个Catalog的形式(例如SQL Server); 此时会自动获取符合该Schema的所有Catalog.
+
+!> Sybase ASE不支持Schema模式
 
 
 ### 分隔标识符
@@ -45,7 +47,7 @@ SELECT "STUDENT"."First Name" from "STUDENT"
 
 ### 字段设置
 
-!!! tip "字段设置比较复杂, 一般情况下保持默认即可"
+> 字段设置比较复杂, 一般情况下保持默认即可
 
 结构示例:
 
@@ -109,7 +111,7 @@ SELECT "User"."id", TO_CHAR("User"."birth", 'YYYY-MM-DD HH24:MI:SS') FROM "USER"
 
 |id|birth|
 |---|---|
-|1|1921-09-09 00:00:00|
+|1| 1921-09-09 00:00:00 |
 
 #### 示例2: 对Hive中的timestamp字段转换为标准年月日时分秒格式
 

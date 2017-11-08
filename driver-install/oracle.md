@@ -14,11 +14,13 @@
 
 则需要将以下两个值添加到环境变量:
 
+> [查看如何设置环境变量](/faq/how-to-set-env)
+
 * `PATH` = `C:\oracle\instantclient_11_2`
 * `TNS_ADMIN` = `C:\oracle\instantclient_11_2`
 
-!!! warning "查看[如何设置环境变量](/faq/how-to-set-env)"
-    `PATH`是很重要的系统环境变量, 在配置的时候注意不要清空原有的值, 应该修改之前的变量, 使用`;`连接多个值.
+
+!> `PATH`是很重要的系统环境变量, 在配置的时候注意不要清空原有的值, 应该修改之前的变量, 使用`;`连接多个值.
 
 ## Linux
 
