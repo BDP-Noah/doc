@@ -12,20 +12,23 @@
 
 ## Windows
 
-### 第一步: 下载同步客户端
-
-访问[下载页面](https://www.bdp.cn/index.html#/database_sync_client_big/)下载最新版
+访问[下载页面](https://www.bdp.cn/index.html#/database_sync_client_big/)下载最新版并安装
 
 ![](img/c6ab3740c26fdc277f7230057172d250.png)
 
 
 
-## Linux
 
-### 第一步: 下载同步客户端
+## Linux
 
 使用下载命令下载
 
-```
+```bash
 wget https://update.bdp.cn/BDP_Noah_setup.bin
+```
+
+安装
+
+```bash
+bash BDP_Noah_setup.bin
 ```

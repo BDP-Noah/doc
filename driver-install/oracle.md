@@ -38,6 +38,7 @@ unzip instantclient.zip -d /etc/oracle/instantclient
 
 * `PATH` = `/etc/oracle/instantclient`
 * `TNS_ADMIN` = `/etc/oracle/instantclient`
+* `LD_LIBRARY_PATH` = `/etc/oracle/instantclient`
 
 ## 注意事项
 
