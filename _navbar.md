@@ -4,5 +4,6 @@
      + [如何设置环境变量](/tutorial/env)
  - 数据库驱动
      + [Oracle](/driver-install/oracle)
+     + [DB2](/driver-install/db2)
  - 常见问题
      + [StatusCode: 30004](/faq/30004)
