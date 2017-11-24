@@ -14,7 +14,7 @@
 
 访问[下载页面](https://www.bdp.cn/index.html#/database_sync_client_big/)下载最新版并安装
 
-![](img/c6ab3740c26fdc277f7230057172d250.png)
+![](http://noah.bj.bcebos.com/doc/img/c6ab3740c26fdc277f7230057172d250.png)
 
 
 
