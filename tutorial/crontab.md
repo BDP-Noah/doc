@@ -9,11 +9,11 @@
 
 点击数据源按钮[同步设置]:
 
-![](img/4c3e9e5c8aa4e1120e205e7e6794a2a0.png)
+![](http://noah.bj.bcebos.com/doc/img/4c3e9e5c8aa4e1120e205e7e6794a2a0.png)
 
 开启定时同步, 选择同步类型:
 
-![](img/1a68c8889b72c65efaa3b7e8a13bf2db.png)
+![](http://noah.bj.bcebos.com/doc/img/1a68c8889b72c65efaa3b7e8a13bf2db.png)
 
 ### 每小时/每两小时
 
