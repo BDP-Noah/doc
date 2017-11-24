@@ -10,7 +10,7 @@
 
 系统为了识别oracle驱动, 需要配置环境变量, 例如将驱动解压至`C:\oracle\instantclient_11_2`
 
-![](img/abc3bab6a637b891f1f310a72ba4b524.png)
+![](http://noah.bj.bcebos.com/doc/img/abc3bab6a637b891f1f310a72ba4b524.png)
 
 则需要将以下两个值添加到环境变量:
 

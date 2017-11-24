@@ -6,15 +6,15 @@
 
 1. 右键`我的电脑`或`计算机`, 打开`属性`
 
-    ![](img/d7e3bb7ec12422c64a96242b67f37470.png)
+    ![](http://noah.bj.bcebos.com/doc/img/d7e3bb7ec12422c64a96242b67f37470.png)
 
 2. 单击`高级系统设置`
 
-    ![](img/8495aea25687d0a10235460521330c31.png)
+    ![](http://noah.bj.bcebos.com/doc/img/8495aea25687d0a10235460521330c31.png)
 
 3. 打开`环境变量`, 推荐设置用户变量
 
-    ![](img/43b4ae638b66df6b90f3ce5926fdf4a7.png)
+    ![](http://noah.bj.bcebos.com/doc/img/43b4ae638b66df6b90f3ce5926fdf4a7.png)
 
 ### 新建环境变量
 
@@ -22,7 +22,7 @@
 
 单击`新建`, 这里假设要新建环境变量`ORACLE_HOME` = `D:\instantclient`, 则如下图所示设置
 
-![](img/5ddabfa0b5e68cb3a2d8608a908e1f61.png)
+![](http://noah.bj.bcebos.com/doc/img/5ddabfa0b5e68cb3a2d8608a908e1f61.png)
 
 ### 修改环境变量
 
@@ -30,7 +30,7 @@
 
 !> "Windows下环境变量多个值之间用英文分号(`;`)隔开"
 
-![](img/982649429b9bc31aeab68d43c78a666f.png)
+![](http://noah.bj.bcebos.com/doc/img/982649429b9bc31aeab68d43c78a666f.png)
 
 
 ## Linux
@@ -43,7 +43,7 @@ export ORACLE_HOME=/etc/oracle/instantclient
 ```
 
 !> 直接执行`export`设置的环境变量是临时的
-        
+
 当您关闭终端后, 该变量就失效了, 若要使环境变量在当前登录用户下永久生效, 使用以下命令:
 ```bash
 echo "export ORACLE_HOME=/etc/oracle/instantclient" >> ~/.bashrc

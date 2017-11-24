@@ -6,7 +6,7 @@
 
 ## 连接参数说明
 
-![](img/2df07d2aec00ddc9e53aa9c1983dea74.png)
+![](http://noah.bj.bcebos.com/doc/img/2df07d2aec00ddc9e53aa9c1983dea74.png)
 
 ### ODBC名称
 所创建的ODBC数据源的名称
