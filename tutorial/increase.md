@@ -6,11 +6,11 @@
 
 配置界面:
 
-![](../img/ed81b92d3d03d0e464b08272f395cd0e.png)
+![](http://noah.bj.bcebos.com/doc/img/ed81b92d3d03d0e464b08272f395cd0e.png)
 
 !> 增量同步使用的字段会用来构造SQL语句, 如果选择非索引字段会造成同步效率低的情况, 配置界面会对索引进行提示
 
-![](../img/f002efa2f542e8036e8e29ec36c76a51.png)
+![](http://noah.bj.bcebos.com/doc/img/f002efa2f542e8036e8e29ec36c76a51.png)
 
 
 ## 相对时间增量
