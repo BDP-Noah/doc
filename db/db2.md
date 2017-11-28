@@ -1,6 +1,6 @@
 # DB2驱动安装及数据库连接
 
-!> 支持版本: 9.5+
+> 支持版本: 9.5+
 
 !> 驱动安装完成需要重启数据同步客户端使之生效
 
@@ -8,7 +8,7 @@
 
 ### 下载
 
-点击[下载地址]()下载
+[下载地址](http://noah.bj.bcebos.com/doc/resource/driver/windows/db2/ibm_data_server_runtime_client_win32_v11.1.exe)
 
 ### 安装
 
@@ -18,13 +18,17 @@
 
 ```bash
 # 下载
-wget
+wget http://noah.bj.bcebos.com/doc/resource/driver/linux/db2/ibm_data_server_driver_package_linuxx64_v11.1.zip
 
 # 解压
-unzip db2.zip -d db2
+unzip ibm_data_server_driver_package_linuxx64_v11.1.zip
 
-# 临时导入环境变量
-echo "source db2/dbprofile" >> ~/.bashrc
+# 安装
+
+./dsdriver/installDsDriver
+
+# 永久导入环境变量
+echo "source dsdriver/db2profile" >> ~/.bashrc
 source ~/.bashrc
 
 ```

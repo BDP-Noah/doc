@@ -1,10 +1,12 @@
 # Oracle驱动安装及数据库连接
 
-!> 支持版本: 10.0+
+> 支持版本: 10.0+
 
 ## Windows
 
 ### 下载驱动文件
+
+[点击下载](http://noah.bj.bcebos.com/doc/resource/driver/windows/oracle/instantclient_11_2.zip)
 
 ### 配置环境变量
 
@@ -28,7 +30,7 @@
 
 ```bash
 # 下载
-wget download/driver/linux/oracle/instantclient.zip
+wget http://noah.bj.bcebos.com/doc/resource/driver/linux/oracle/instantclient_11_2.zip
 
 # 解压
 unzip instantclient.zip -d /etc/oracle/instantclient
