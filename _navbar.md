@@ -3,12 +3,14 @@
     + [手动触发同步](/tutorial/manual)
     + [增量同步](/tutorial/increase)
     + [开放接口](/tutorial/api)
+    + [JDBC配置指南](/tutorial/jdbc)
 - 数据库连接指南
     + [Oracle](/db/oracle)
     + [DB2](/db/db2)
     + [ODBC](/db/odbc)
     + [MongoDB](/db/mongodb)
     + [Access](/db/access)
+    + [MySQL](/db/mysql)
 - 常见问题
     + [数据差异排查](/faq/difference)
 - 其他资料
