@@ -29,6 +29,8 @@
 
 访问[下载页面](https://www.bdp.cn/index.html#/database_noah/)下载最新版并安装
 
+安装成功后点击图标启动
+
 
 ### Linux
 
@@ -43,3 +45,9 @@ wget https://update.bdp.cn/BDP_Noah_setup.bin
 ```bash
 bash BDP_Noah_setup.bin
 ```
+
+### 开始使用
+
+使用Chrome(其他浏览器可能有部分功能不兼容)打开安装机器的ip:端口
+
+> 如安装在本机, 端口号配置为9999的话, 浏览器输入 http://127.0.0.1:9999 回车, 即可打开页面
